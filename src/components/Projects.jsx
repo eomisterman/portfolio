@@ -1,15 +1,17 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
+
 const Projects = () => {
   return (
     <>
-      {/* <Sidebar /> */}
       <section className="min-h-fit basis-auto my-10 mr-7 text-sm font-mono text-slate-700 max-w-lg">
         <h2 className="text-3xl sm:text-2xl font-extrabold mb-16">Projects</h2>
         <div className="mb-16">
           <a
             href="https://playmakerspotify.com"
-            className="text-xl font-light mb-1"
+            className="text-xl font-light mb-1 hover:text-amber-100"
           >
-            TracKemist
+            TracKemist {<FontAwesomeIcon icon={faLink} />}
           </a>
           <p>
             React web app that connects to Spotify and allows users to create
@@ -19,9 +21,9 @@ const Projects = () => {
         <div className="mb-16">
           <a
             href="https://github.com/eomisterman/gamechanger_app"
-            className="text-xl font-light mb-1"
+            className="text-xl font-light mb-1 hover:text-amber-100"
           >
-            Schedule
+            Schedule {<FontAwesomeIcon icon={faLink} />}
           </a>
           <p>
             Website displaying mock schedule for a youth sports team. The front
@@ -32,9 +34,9 @@ const Projects = () => {
         <div className="mb-16">
           <a
             href="https://github.com/eomisterman/machine-eyes"
-            className="text-xl font-light mb-1"
+            className="text-xl font-light mb-1 hover:text-amber-100"
           >
-            Machine Eyes
+            Machine Eyes {<FontAwesomeIcon icon={faLink} />}
           </a>
           <p>
             Capstone project for the Computer Science major. Using Kinect motion
@@ -47,31 +49,31 @@ const Projects = () => {
         <div className="mb-16">
           <a
             href="https://github.com/eomisterman/scraper"
-            className="text-xl font-light mb-1"
+            className="text-xl font-light mb-1 hover:text-amber-100"
           >
-            Scraper
+            Scraper {<FontAwesomeIcon icon={faLink} />}
           </a>
           <p>Basic web scraper using node.js.</p>
         </div>
         <div className="mb-16">
           <a
             href="https://github.com/eomisterman/adventure_time"
-            className="text-xl font-light mb-1"
+            className="text-xl font-light mb-1 hover:text-amber-100"
           >
-            Adventure Time
+            Adventure Time {<FontAwesomeIcon icon={faLink} />}
           </a>
           <p>
-            This site is an adventure piece for the Digital Studio class, it
+            {`This site is an adventure piece for the Digital Studio class, it
             explores addiction and the effects that addiction has on one's
-            perception, health, and values.
+            perception, health, and values.`}
           </p>
         </div>
         <div className="mb-16">
           <a
             href="https://github.com/eomisterman/domestika"
-            className="text-xl font-light mb-1"
+            className="text-xl font-light mb-1 hover:text-amber-100"
           >
-            Sketches
+            Sketches {<FontAwesomeIcon icon={faLink} />}
           </a>
           <p>Collection of sketches generated using p5.js.</p>
         </div>
