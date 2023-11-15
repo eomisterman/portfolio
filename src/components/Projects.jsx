@@ -8,7 +8,7 @@ const Projects = () => {
         <h2 className="text-3xl sm:text-2xl font-extrabold mb-16">Projects</h2>
         <div className="mb-16">
           <a
-            href="https://playmakerspotify.com"
+            href="https://trackemist.netlify.app"
             className="text-xl font-light mb-1 hover:text-amber-100"
           >
             TracKemist {<FontAwesomeIcon icon={faLink} />}
