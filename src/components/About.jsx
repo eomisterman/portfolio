@@ -2,10 +2,10 @@ const About = () => {
   return (
     <>
       {/* <Sidebar /> */}
-      <section className="min-h-fit basis-auto my-10 mr-7 text-sm font-mono text-slate-700 max-w-lg">
+      <section className="p-8 sm:p-16 text-sm text-slate-700">
         <h2 className="text-3xl sm:text-2xl font-extrabold mb-16">About</h2>
         <div className="mb-16">
-          <p>
+          <p className="max-w-lg">
             Emilio Ovalles-Misterman is a curious software engineer with a
             constant desire to create. After spending a few years working across
             a diverse tech stack, developing user interfaces for Android apps,
