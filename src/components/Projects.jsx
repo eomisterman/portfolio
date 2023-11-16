@@ -14,8 +14,7 @@ const Projects = () => {
             TracKemist {<FontAwesomeIcon icon={faLink} />}
           </a>
           <p>
-            React web app that connects to Spotify and allows users to create
-            playlists and view their favorite songs and artists.
+            TracKemist is a web application that interfaces with the Spotify Web API to allows users to search for artists, albums, and tracks. Users can also view their top artists and tracks and save their favorite tracks to a playlist. The application is still in Spotify&apos;s API developer mode, meaning that users can only be added manually by the developer. Please reach out if you would like to be added as a user!
           </p>
         </div>
         <div className="mb-16">
@@ -26,9 +25,7 @@ const Projects = () => {
             Schedule {<FontAwesomeIcon icon={faLink} />}
           </a>
           <p>
-            Website displaying mock schedule for a youth sports team. The front
-            end is made using React and the API is made with Kotlin and
-            SpringBoot.
+            Full stack web application displaying a mock schedule for a fictional youth baseball team. The frontend is made with React and the backend is made with Kotlin and Springboot.
           </p>
         </div>
         <div className="mb-16">
@@ -39,21 +36,8 @@ const Projects = () => {
             Machine Eyes {<FontAwesomeIcon icon={faLink} />}
           </a>
           <p>
-            Capstone project for the Computer Science major. Using Kinect motion
-            sensor, machine learning, and Max, Machine Eyes is capable of
-            tracking and identifying movements within a space. When target
-            movements are identified, eyes are projected on a canvas to follow
-            the user throughout the space.
+            Machine Eyes is the capstone project for the completion of the Computer Science major. It uses a Xbox Kinect motion sensor to track movements, support vector machine (SVM) algorithm to learn and identify movements and poses, Max MSP to convert the motion sensing data to on-screen coordinates, and Processing to generate animations of eyes that follow a user. Machine Eyes is capable of tracking and identifying audience movements, then projecting eye animations that follow the individual throughout an exhibition space.
           </p>
-        </div>
-        <div className="mb-16">
-          <a
-            href="https://github.com/eomisterman/scraper"
-            className="text-xl font-light mb-1 hover:text-amber-100"
-          >
-            Scraper {<FontAwesomeIcon icon={faLink} />}
-          </a>
-          <p>Basic web scraper using node.js.</p>
         </div>
         <div className="mb-16">
           <a
@@ -63,19 +47,10 @@ const Projects = () => {
             Adventure Time {<FontAwesomeIcon icon={faLink} />}
           </a>
           <p>
-            {`This site is an adventure piece for the Digital Studio class, it
-            explores addiction and the effects that addiction has on one's
-            perception, health, and values.`}
+            This site is an adventure piece for the Digital Studio art class, it
+            explores addiction and the effects that addiction has on one&apos;s
+            perception, health, and values as the user interacts with the piece.
           </p>
-        </div>
-        <div className="mb-16">
-          <a
-            href="https://github.com/eomisterman/domestika"
-            className="text-xl font-light mb-1 hover:text-amber-100"
-          >
-            Sketches {<FontAwesomeIcon icon={faLink} />}
-          </a>
-          <p>Collection of sketches generated using p5.js.</p>
         </div>
         {/* Add more projects here! */}
       </section>
