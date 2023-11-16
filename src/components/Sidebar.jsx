@@ -3,14 +3,14 @@ import { Link, Outlet } from "react-router-dom";
 const Sidebar = () => {
   return (
     <>
-      <section className="shrink-0 mx-7 my-10 h-full sm:basis-48">
+      <section className="shrink-0 m-8 sm:m-16 sm:mr-8 sm:basis-48 text-slate-700">
         <section>
           <h1 className="text-xl sm:text-3xl font-bold">
             Emilio <br /> Ovalles- <br /> Misterman
           </h1>
         </section>
 
-        <section className="text-xs sm:text-sm font-normal mt-16">
+        <section className="text-md sm:text-md font-thin mt-16">
           <Link to="/about" className="block w-full mb-4">
             About
           </Link>

@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'MarketSans-Bold';
+  src: local('MarketSans-Bold'), url('../fonts/MarketSans-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'MarketSans-Light';
+  src: local('MarketSans-Light'), url('../fonts/MarketSans-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'MarketSans-Medium';
+  src: local('MarketSans-Medium'), url('../fonts/MarketSans-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'MarketSans-Regular';
+  src: local('MarketSans-Regular'), url('../fonts/MarketSans-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'MarketSans-SemiBold';
+  src: local('MarketSans-SemiBold'), url('../fonts/MarketSans-SemiBold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'MarketSans-Thin';
+  src: local('MarketSans-Thin'), url('../fonts/MarketSans-Thin.otf') format('opentype');
+}
+
+body { 
+  font-family: 'MarketSans-Regular', sans-serif;
+}
+
+body > section {
+  font-family: 'MarketSans-Regular', sans-serif;
+}
+
+#root-section {
+  height: 100dvh;
+  background-color: rgb(240, 249, 255);
+}
