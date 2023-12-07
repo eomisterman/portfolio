@@ -23,11 +23,11 @@ const App = () => {
 export default App;
 
 const Home = () => {
-  const style = "text-normal font-light m-2 sm:m-8 text-slate-700"
+  const style = "text-lg sm:text-2xl font-light m-2 sm:m-8 text-slate-700"
   return (
     <article className="h-screen table w-full">
       <div className="table-cell align-middle text-center">
-        <h1 className="text-2xl sm:text-5xl font-bold mb-12 text-slate-700">Emilio Ovalles-Misterman</h1>
+        <h1 className="text-3xl sm:text-6xl font-bold mb-12 text-slate-700">Emilio Ovalles-Misterman</h1>
         <Link to="/about" className={style}>About</Link>
         <Link to="/projects" className={style}>Projects</Link>
         <Link to="/contact" className={style}>Contact</Link>
