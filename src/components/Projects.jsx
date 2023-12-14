@@ -21,6 +21,19 @@ const Projects = () => {
         </div>
         <div className="mb-8">
           <a
+            href="https://moonlit-kitten-2f68ef.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+            className="text-2xl font-semibold mb-1 hover:text-sky-300"
+          >
+            Password Generator {<FontAwesomeIcon icon={faLink} />}
+          </a>
+          <p className="py-2 max-w-lg">
+            Single Page Application written in VanillaJS. Interacting with the Words API, it fetches randomly generated words to user for the passphrases. The password generator is a tool to generate secure passwords and passphrases. As a user you are able to adjust the length and complexity of your passwords or passphrases, depending on your needs.
+          </p>
+        </div>
+        <div className="mb-8">
+          <a
             href="https://gentle-cheesecake-7cb3cb.netlify.app/"
             target="_blank"
             rel="noreferrer"
